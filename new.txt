@@ -1,0 +1,15 @@
+# git init -- for initializing empty git repository
+# git add file-name
+# git add . -- adds all files in the folder
+# git commit -m "discription of commit"
+
+# git remote add origin <address-of-your-repository>  
+# git remote -v -- to check if a git repository is added
+#  git restore git.py
+
+git branch -- check branch (main/master)
+git branch -M "main" -- rename master branch to main
+git push origin main -- to push your file to main branch (github)
+git pull origin main -- to pull your file from main branch (github) 
+git checkout -b new_branch -- creates a new branch, -b flags checks if a previous
+                                one exists there. if it doesn't it creats one instead
